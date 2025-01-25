@@ -1,0 +1,98 @@
+Body {
+    Font-family: Arial, sans-serif;
+    Margin: 0;
+    Padding: 0;
+}
+
+.container {
+    Width: 80%;
+    Margin: 0 auto;
+}
+
+Header {
+    Background-color: #333;
+    Color: #fff;
+    Padding: 1em;
+    Text-align: center;
+}
+
+Header nav ul {
+    List-style: none;
+    Margin: 0;
+    Padding: 0;
+}
+
+Header nav ul li {
+    Display: inline-block;
+    Margin-right: 20px;
+}
+
+Header nav a {
+    Color: #fff;
+    Text-decoration: none;
+}
+
+.hero {
+    Position: relative;
+    Width: 100%;
+    Height: 500px;
+    Background-image: url(‘hero-image.jpg’);
+    Background-size: cover;
+    Background-position: center;
+}
+
+.hero h1 {
+    Position: absolute;
+    Top: 50%;
+    Left: 50%;
+    Transform: translate(-50%, -50%);
+    Color: #fff;
+    Font-size: 36px;
+    Text-align: center;
+}
+
+.hero article {
+    Position: absolute;
+    Bottom: 0;
+    Right: 0;
+    Background-color: rgba(0, 0, 0, 0.5);
+    Padding: 20px;
+    Color: #fff;
+}
+
+.hero article img {
+    Float: right;
+    Width: 50%;
+    Height: 100px;
+    Object-fit: cover;
+    Margin-left: 20px;
+}
+
+Footer {
+    Background-color: #333;
+    Color: #fff;
+    Padding: 1em;
+    Text-align: center;
+    Clear: both;
+}
+
+.footer-content {
+    Width: 80%;
+    Margin: 0 auto;
+}
+
+.social-media {
+    List-style: none;
+    Margin: 0;
+    Padding: 0;
+}
+
+.social-media li {
+    Display: inline-block;
+    Margin-right: 20px;
+}
+
+.social-media a {
+    Color: #fff;
+    Text-decoration: none;
+}
