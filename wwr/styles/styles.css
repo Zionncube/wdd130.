@@ -1,1 +1,56 @@
+Body {
+    Font-family: ‘Playfair Display’, serif;
+    Margin: 0;
+    Padding: 0;
+    Background-color: #8EE3EF; /* Primary color */
+}
 
+Header {
+    Background-color: #254E70; /* Accent1 color */
+    Color: #fff;
+    Padding: 1em;
+    Text-align: center;
+}
+
+Header img {
+    Width: 100px;
+    Height: 100px;
+    Object-fit: cover;
+    Margin: 0 auto;
+}
+
+Header nav ul {
+    List-style: none;
+    Margin: 0;
+    Padding: 0;
+}
+
+Header nav ul li {
+    Display: inline-block;
+    Margin-right: 20px;
+}
+
+Header nav a {
+    Color: #fff;
+    Text-decoration: none;
+}
+
+Main {
+    Display: flex;
+    Flex-direction: column;
+    Align-items: center;
+    Padding: 2em;
+}
+
+Footer {
+    Background-color: #37718E; /* Accent2 color */
+    Color: #fff;
+    Padding: 1em;
+    Text-align: center;
+    Clear: both;
+}
+
+H1, h2, h3 {
+    Font-family: 'Playwrite Viet Nam', sans-serif;
+    Color: #AEF3E7; /* Secondary color */
+}
