@@ -1,56 +1,92 @@
-Body {
-    Font-family: ‘Playfair Display’, serif;
-    Margin: 0;
-    Padding: 0;
-    Background-color: #8EE3EF; /* Primary color */
+body {
+    font-family: 'Playfair Display', serif;
+    margin: 0;
+    padding: 0;
+    background-color: #8EE3EF; /* Primary color */
 }
 
-Header {
-    Background-color: #254E70; /* Accent1 color */
-    Color: #fff;
-    Padding: 1em;
-    Text-align: center;
+header {
+    background-color: #254E70; /* Accent1 color */
+    color: #fff;
+    padding: 1em;
+    text-align: center;
 }
 
-Header img {
-    Width: 100px;
-    Height: 100px;
-    Object-fit: cover;
-    Margin: 0 auto;
+header img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin: 0 auto;
 }
 
-Header nav ul {
-    List-style: none;
-    Margin: 0;
-    Padding: 0;
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
 }
 
-Header nav ul li {
-    Display: inline-block;
-    Margin-right: 20px;
+header nav ul li {
+    display: inline-block;
+    margin-right: 20px;
 }
 
-Header nav a {
-    Color: #fff;
-    Text-decoration: none;
+header nav a {
+    color: #fff;
+    text-decoration: none;
 }
 
-Main {
-    Display: flex;
-    Flex-direction: column;
-    Align-items: center;
-    Padding: 2em;
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2em;
 }
 
-Footer {
-    Background-color: #37718E; /* Accent2 color */
-    Color: #fff;
-    Padding: 1em;
-    Text-align: center;
-    Clear: both;
+.hero {
+    position: relative;
 }
 
-H1, h2, h3 {
-    Font-family: 'Playwrite Viet Nam', sans-serif;
-    Color: #AEF3E7; /* Secondary color */
+.hero img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
 }
+
+.hero h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 36px;
+}
+
+article {
+    margin-top: 20px;
+}
+
+article img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+section {
+    margin-top: 20px;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.gallery img {
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+    margin: 10px;
+}
+
+footer {
+    background-color: #37718E; /* Accent
