@@ -1,59 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Us</title>
-    <link rel="stylesheet" href="styles/styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Playwrite+Viet+Nam&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Us</title>
+  <meta name="description" content="White Water Rafting company about page">
+  <meta name="author" content="Zion Ncube">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Playwrite+Viet+Nam&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/rafting.css">
 </head>
 <body>
-    <header>
-        <img src="images/logo.png" alt="Company Logo">
-        <nav>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About Us</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <div class="hero">
-            <img src="images/image1.png" alt=" ">
-            <h1>White Water Rafting</h1>
-        </div>
-        <article>
-            <img src="images/image2.jpg" alt=" ">
-            <p>Welcome to White Watter Rafting, you premier destination for thrilling advrntures on the water. Experience the rush of navigating throughrapids and the serenity of floatingthrough calm waters. Join us for an unforgetable journey.</p>
-        </article>
-        <section>
-            <h2>History</h2>
-            <p>White Water Rafting fas a rich history that dates back to the early days of river exploration. our company was founded by the group of passionate rafters who saut tho share the trill of white water rafting with others. since our humble begginings we've grown into premier rafting outfitter.</p>
-        </section>
-        <section class="gallery">
-            <h2>Adventure Awaits You!</h2>
-            <img src="images/image3.jpg" alt=" ">
-            <img src="images/image4.jpg" alt=" ">
-            <img src="images/image5.jpg" alt=" ">
-            <img src="images/image6.png" alt=" ">
-            <img src="images/image7.jpg" alt=" ">
-        </section>
-    </main>
-    <footer>
-        <nav class="social-links">
-            <a href="https://facebook.com">
-                <img src="images/facebook.svg" alt="facebook">
-            </a>
-            <a href="https://twitter.com">
-                <img src="images/twitter.svg" alt="twitter">
-            </a>
-            <a href="https://instagram.com">
-                <img src="images/instagram.svg" alt="instagram">
-            </a>
-        </nav>
-    </footer>
+  <header>
+    <div class="header-grid">
+      <img src="images/logo.png" alt="Company Logo" class="logo">
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="trips.html">Trips</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <section class="hero">
+      <img src="images/image1.png" alt=" " class="hero-image">
+      <div class="hero-overlay">
+        <h1>White Water Rafting</h1>
+        <p>Welcome to White Watter Rafting, you premier destination for thrilling adventures on the water.</p>
+      </div>
+    </section>
+    <section class="history">
+      <h2>History</h2>
+      <p>White Water Rafting has a rich history that dates back to the early days of river exploration. Our company was founded by a group of passionate rafters who sought to share the thrill of white water rafting with others. Since our humble beginnings, we've grown into a premier rafting outfitter.</p>
+    </section>
+    <section class="adventures">
+      <h2>Adventure Awaits You!</h2>
+      <div class="adventures-grid">
+        <figure>
+          <img src="images/image3.jpg" alt=" " class="adventure-image">
+          <figcaption>Los Dientes del Diablo</figcaption>
+        </figure>
+        <figure>
+          <img src="images/image4.jpg" alt=" " class="adventure-image">
+          <figcaption>Big Mallard</figcaption>
+        </figure>
+        <figure>
+          <img src="images/image5.jpg" alt=" " class="adventure-image">
+          <figcaption>Half Day Adventure</figcaption>
+        </figure>
+        <figure>
+          <img src="images/image6.png" alt=" " class="adventure-image">
+          <figcaption>Full Day Adventure</figcaption>
+        </figure>
+        <figure>
+          <img src="images/image7.jpg" alt=" " class="adventure-image">
+          <figcaption>Multiday Adventure</figcaption>
+        </figure>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <div class="footer-grid">
+      <nav class="social-links">
+        <a href="https://facebook.com">
+          <img src="images/facebook.svg" alt="facebook">
+        </a>
+        <a href="https://twitter.com">
+          <img src="images/twitter.svg" alt="twitter">
+        </a>
+        <a href="https://instagram.com">
+          <img src="images/instagram.svg" alt="instagram">
+        </a>
+      </nav>
+      <p>&copy; 2023 White Water Rafting - Zion Ncube</p>
+    </div>
+  </footer>
 </body>
 </html>
