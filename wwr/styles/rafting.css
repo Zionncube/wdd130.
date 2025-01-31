@@ -24,7 +24,7 @@ margin: 0 auto; /_ center page */
 
 .header-container {
   display: grid;
-  grid-template-columns: 1fr 3fr; /* divide the grid into two columns, with the second column taking up more space */
+  grid-template-columns: 3fr 1fr 1fr 1fr; /* divide the grid into two columns, with the second column taking up more space */
   align-items: center; /* vertically center the grid items */
   padding: 20px;
   background-color: var(--primary-color);
@@ -37,7 +37,7 @@ margin: 0 auto; /_ center page */
 }
 
 .header-container nav {
-  grid-column: 2; /* place the navigation bar in the second column */
+  grid-column: 2 3 4; /* place the navigation bar in the second column */
   text-align: right;
 }
 
@@ -55,11 +55,11 @@ margin: 0 auto; /_ center page */
   background-size: 90% auto;
   background-position: center;
   background-repeat: no-repeat;
-  height: 40vh; /* 40% of the viewport height */
+  height: 25vh; /* 40% of the viewport height */
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: centre;
   color: #fff;
 }
 
