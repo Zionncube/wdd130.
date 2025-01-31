@@ -49,11 +49,26 @@ margin: 0 auto; /_ center page */
   justify-content: flex-end;
 }
 
-.header-container nav ul li {
-  margin-right: 20px;
+
+.hero {
+  background-image: url('../images/image1.png');
+  background-size: 90% auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 40vh; /* 40% of the viewport height */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
 }
 
-.header-container nav a {
-  color: #fff;
-  text-decoration: none;
+.hero h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 18px;
+  margin-bottom: 20px;
 }
